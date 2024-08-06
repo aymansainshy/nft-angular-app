@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  /* height: 125vh; */
+  /* background-image: url("https://codetheweb.blog/assets/img/posts/style-a-navigation-bar-css/background.jpg"); */
+  /* background-size: cover; */
+  font-family: sans-serif;
+  background-color: rgb(219, 226, 235);
+  margin-left: 80px;
+  margin-right: 80px;
+  height: 100%;
+  /* padding: 30px; */
+  /* position: relative; */
+}

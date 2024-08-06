@@ -1,0 +1,38 @@
+<div class="nav-bar">
+
+    <div class="row-left">
+
+
+        <img class="logo"
+            src="https://www.shutterstock.com/image-vector/circle-line-simple-design-logo-600nw-2174926871.jpg"
+            alt="image" />
+
+
+        <nav>
+            <app-nav-button [title]="navBarItem[0]" [isActive]="selectedTab === 'navBarItem[0]'"
+                (buttonClick)="onButtonClick('navBarItem[0]')"> </app-nav-button>
+
+            <app-nav-button [title]="navBarItem[1]" [isActive]="selectedTab === 'navBarItem[1]'"
+                (buttonClick)="onButtonClick('navBarItem[1]')"></app-nav-button>
+
+            <app-nav-button [title]="navBarItem[2]" [isActive]="selectedTab === 'navBarItem[2]'"
+                (buttonClick)="onButtonClick('navBarItem[2]')">
+            </app-nav-button>
+
+            <app-nav-button [title]="navBarItem[3]" [isActive]="selectedTab === 'navBarItem[3]'"
+                (buttonClick)="onButtonClick('navBarItem[3]')"> </app-nav-button>
+        </nav>
+    </div>
+
+
+
+    <div class="row-right">
+
+        <div class="search"> </div>
+
+        <div class="connect-wallet-btn"> </div>
+
+        <div class="language"> </div>
+    </div>
+
+</div>
